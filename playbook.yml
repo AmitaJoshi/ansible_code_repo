@@ -8,4 +8,6 @@
             include_role: 
                 name: "maven_install"
             
-        
+          - name: install tomcat
+            include_role:
+                name: "tomcat_install"        
