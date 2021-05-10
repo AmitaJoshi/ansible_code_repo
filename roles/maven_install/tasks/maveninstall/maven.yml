@@ -1,5 +1,5 @@
 ---
-- name: To install maven
+- name: maven installation
   yum: 
         name: maven
         state: present
