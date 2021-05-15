@@ -1,4 +1,4 @@
-[ll:children]
+[all:children]
 dev
 qa
 docker-registry
