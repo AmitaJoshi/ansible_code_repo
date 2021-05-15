@@ -8,7 +8,7 @@ jenkins-server
 [dev]
 20.98.96.238
 [qa]
-13.82.195.134
+192.168.1.13
 [docker-registry]
 10.1.1.4
 [jenkins-server]
