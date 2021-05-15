@@ -1,6 +1,6 @@
 ---
 - name: install sofwares on target machines
-  hosts: "{{ ENV }}"
+  hosts: ENV
   gather_facts: false
   become: true
   tasks:
