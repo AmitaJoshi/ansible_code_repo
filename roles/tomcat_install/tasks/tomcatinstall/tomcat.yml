@@ -1,6 +1,6 @@
 ---
 - name: Tomcat Intallation
-  shell: wget https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.tar.gz
+  shell: wget https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.46/bin/apache-tomcat-9.0.46.tar.gz
 
 - name: untar tomcat file
   shell: "tar -xvf apache-tomcat-8.5.65.tar.gz"
