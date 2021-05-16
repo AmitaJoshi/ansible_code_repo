@@ -4,5 +4,8 @@
 
 - name: untar tomcat file
   shell: "tar -xvf  apache-tomcat-9.0.46.tar.gz"
+  
+- name: rename tomcat file
+  shell: "mv apache-tomcat-9.0.46.tar.gz tomcat"
 
 
