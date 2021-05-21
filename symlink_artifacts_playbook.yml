@@ -5,7 +5,7 @@
   become_user: root
   tasks:
         - name: Create symbolic link 
-                file:
-                        src: "/root/tomcat/webapps"
-                        dest: "/opt/SYMLINK"
-                        state: link
+          file:
+             src: "/root/tomcat/webapps"
+             dest: "/opt/SYMLINK"
+             state: link
