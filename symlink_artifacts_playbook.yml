@@ -4,8 +4,12 @@
   become: yes
   become_user: root
   tasks:
+        - name: remove symbolic link
+          file:
+            path: "/root/tomcat/webapps/{{ ARTIFACT }}"
+            state: absent
         - name: Create symbolic link 
           file:
-             src: "/opt/deployments/{{ CURR_DATE }}/{{ ARTIFACT }}"
+             src: "/opt/deployments/{{ CURR_DATE }}/{{ CURR_ARTIFACT }}"
              dest: "/root/tomcat/webapps/{{ ARTIFACT }}"
              state: link
