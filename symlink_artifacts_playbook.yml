@@ -6,6 +6,6 @@
   tasks:
         - name: Create symbolic link 
           file:
-             src: "/root/tomcat/webapps"
-             dest: "/opt/SYMLINK"
+             src: "/opt/deployments/{{ CURR_DATE }}/{{ ARTIFACT }}"
+             dest: "/root/tomcat/webapps/{{ ARTIFACT }}"
              state: link
